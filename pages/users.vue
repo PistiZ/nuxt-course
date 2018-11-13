@@ -20,7 +20,9 @@
             onLoadUser() {
                 this.$router.push('/users/' + this.userId)
             }
-        }
+        },
+
+        layout: 'users'
     }
 </script>
 
