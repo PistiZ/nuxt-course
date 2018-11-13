@@ -1,5 +1,7 @@
 <template>
     <div>
+        <Header />
+
         <header>
             USERS SECTION
         </header>
@@ -11,3 +13,14 @@
 <style>
 
 </style>
+
+<script>
+    import Header from "@/components/Header";
+
+    export default {
+        components: {
+            Header
+        }
+    }
+</script>
+
